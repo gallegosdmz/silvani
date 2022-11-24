@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad 1</title>
+
+    <style>
+        *{box-sizing:border-box;}
+
+        form{
+            width:300px;
+            padding:16px;
+            border-radius:10px;
+            margin:auto;
+            background-color:#ccc;
+        }
+
+        form label{
+            width:72px;
+            font-weight:bold;
+            display:inline-block;
+        }
+
+        form input[type="text"],
+        form input[type="email"]{
+            width:180px;
+            padding:3px 10px;
+            border:1px solid #f6f6f6;
+            border-radius:3px;
+            background-color:#f6f6f6;
+            margin:8px 0;
+            display:inline-block;
+        }
+
+        form input[type="submit"]{
+            width:100%;
+            padding:8px 16px;
+            margin-top:32px;
+            border:1px solid #000;
+            border-radius:5px;
+            display:block;
+            color:#fff;
+            background-color:#000;
+        } 
+
+        form input[type="reset"]{
+            width:100%;
+            padding:8px 16px;
+            margin-top:32px;
+            border:1px solid #000;
+            border-radius:5px;
+            display:block;
+            color:#fff;
+            background-color:#000;
+        } 
+
+        form input[type="submit"]:hover{
+            cursor:pointer;
+        }
+
+        form input[type="reset"]:hover{
+            cursor:pointer;
+        }
+
+        .titulo {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p class="titulo">Cuestionario</p>
+
+        <hr>
+
+        <p>Nombre Usuario</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text" id="nombre">
+
+        <p>Contraseña</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text" id="contra">
+
+        <p>Repetir Contraseña</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text" id="repetircontra">
+
+        <p>Direccion</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text">
+
+        <p>Ciudad</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text">
+
+        <p>Provincia</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text">
+
+        <p>Numero de huespedes</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text">
+
+        <p>Servicios</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="checkbox"> Aire Acondicionado
+        <input type="checkbox"> Caja Fuerte
+        <input type="checkbox"> Minibar
+        <input type="checkbox"> Conexion a internet
+        <input type="checkbox"> Almohadas a la carta
+        <input type="checkbox"> Detector de humos
+        <input type="checkbox"> Mesa de trabajo
+        <input type="checkbox"> WIFI
+
+        <p>Tipo de habitacion</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="checkbox"> Individual
+        <input type="checkbox"> Doble
+        <input type="checkbox"> Suite
+
+        <p>Pensión</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="checkbox"> Alojamiento
+        <input type="checkbox"> Desayuno
+        <input type="checkbox"> Media
+        <input type="checkbox"> Completa
+
+        <p>Comentarios o sugerencias</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text">
+
+        <p>E-mail contacto</p>
+        <a href="detalles.html">Justificación</a>
+        <input type="text">
+
+        <a href="detalles.html">Justificación</a>
+        <input type="checkbox"> Acepto la politica de privacidad
+
+        <input type="submit" value="Enviar"><a href="detalles.html">Justificación</a>
+        <input type="reset" value="Borrar"><a href="detalles.html">Justificación</a>
+    </form>
+</body>
+</html>

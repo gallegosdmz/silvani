@@ -84,7 +84,8 @@ body {
     font-family: sans-serif;
     font-weight: normal;
     font-size: large;
-    display: inline;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .info span {
